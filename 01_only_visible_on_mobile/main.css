@@ -24,6 +24,29 @@ body {
 }
 
 
+
+@media screen and (max-width: 800px) {
+body,html{
+    background-color: aqua;
+    color: limegreen;
+    font-size: 1em;
+}
+
+body {
+    border: 3em solid red;
+}
+
+.desktop_visible {
+  display: none;
+}
+
+.mobile_visible {
+  display: block;
+}
+
+}
+
+
 @media screen and (max-width: 376px) {
 body,html{
     background-color: aqua;

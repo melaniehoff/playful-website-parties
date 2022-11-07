@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-
-
 function use_name() {
   var name = document.getElementById("input_name").value;
 

@@ -17,11 +17,14 @@ var randomName = namesArray[Math.floor(Math.random() * arrayLength)];
 
 console.log(randomName)
 
-$('#name').append(randomName);
+var arrayEnd = arrayLength-1;
+
+$('#name').append(namesArray[arrayEnd]);
+// console.log(namesArray[33]);
 
 
 for (var i = 0; i < arrayLength; i++) {
-    console.log(namesArray[i]);
+    // console.log(namesArray[i]);
     $('#names').append((namesArray[i] +" "));
     //Do something
   }

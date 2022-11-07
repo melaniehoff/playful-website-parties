@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+    console.log( "the html has loaded and my script file is properly loaded into my website code" );
 
     var morning = "morning.gif";
     var afternoon = "afternoon.gif";
@@ -8,10 +8,10 @@ $( document ).ready(function() {
 
     function checkHour() {
         var d = new Date();
-        var n = d.getHours();
+        var n = d.getHours()
         // var n = 11;
 
-        console.log(n)
+        console.log(n + "this is the hour of day that was detected")
       if(n <= 11){
           console.log("It's the morning!")
           $('body').css('background-image', 'url(' + morning + ')');
@@ -21,11 +21,15 @@ $( document ).ready(function() {
           $('body').css('background-image', 'url(' + afternoon + ')');
         }
         if(n >= 16){
-          console.log("It's the evening!")
+          console.log("the time that my code detected is what i am calling an evening time!")
           $('body').css('background-image', 'url(' + night + ')');
+          console.log(night);
         }
 
     }
 
+
     checkHour();
+    console.log($('body').css('background-image'));
+
 });
