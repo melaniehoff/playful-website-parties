@@ -23,16 +23,19 @@ img{
 
 .my-fun-class {
   width: 50%;
-  border: 2px solid limegreen;
+  border: 2px solid lightgrey;
   display: block;
   margin: auto;
-  font-size: 16px;
+  font-size: .8em;
   border-radius: 15px;
 }
 
 .vanillajs-table td {
     box-sizing: border-box;
-    width: 300px !important;
+    width: 400px !important;
+    text-align: left;
+    text-align: left;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
