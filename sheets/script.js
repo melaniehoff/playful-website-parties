@@ -1,6 +1,8 @@
 
 console.log( "ready!" );
 
+// https://dev.to/bornfightcompany/using-google-sheets-as-a-simple-database-with-papa-parse-2k7o
+
 
 function init() {
           Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vReFW3tvrzxomIgL-Wh_iYw0zJST4MqRRtGVdYeYxw1nFOreaFG6HPlSvWRKuCnJ-r1obZmd6sQcpQA/pub?output=csv', {
