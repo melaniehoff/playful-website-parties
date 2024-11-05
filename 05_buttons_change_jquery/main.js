@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   $("#text").click(function() {
-    $("p").html("I like to eat snails");
+    $("p").html("falling failing feeling freeing");
   });
 
   $("#show").click(function() {

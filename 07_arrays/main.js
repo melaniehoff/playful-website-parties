@@ -6,7 +6,7 @@ $( document ).ready(function() {
 console.log( "ready!" );
 
 
-let namesArray = ["Amy","Louie","Charlotte","Fereshteh","G","Hilary","Ilya","Liara","Jackie","Latoya","Michelle","Molly","Sarah","Shane","Stef","Teresa","Zoe","Alliah","Claire","Fereshteh","Ingo","Jean","Jenny","Joygill","Julia","Justyne","Kaeli","Kara","Liz","M.E.","Masha","Rox","Vanessa","Yatu"]
+let namesArray = ["Amy","Louie","Charlotte","Fereshteh","G","Hilary","Ilya","Liara","Jackie","Latoya","Michelle","Molly","Sarah","Shane","Stef","Teresa","Zoe","Alliah","Claire","Fereshteh","Ingo","Jean","Jenny","Joygill","Julia","Justyne","Kaeli","Kara","Liz","M.E.","Masha","Rox","Vanessa"]
 
 var arrayLength = (namesArray.length);
 
@@ -26,7 +26,9 @@ $('#name').append(namesArray[arrayEnd]);
 for (var i = 0; i < arrayLength; i++) {
     // console.log(namesArray[i]);
     $('#names').append((namesArray[i] +" "));
-    //Do something
   }
 
 });
+
+
+// how would we make a random name in the list appear at the top?
